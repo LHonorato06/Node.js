@@ -35,4 +35,4 @@ class MultiplyByTenStream extends Writable {
 
 new OneToHundredStream()
 .pipe(new InverseNumberStream())
-  .pipe(new MultiplyByTenStream())
+.pipe(new MultiplyByTenStream())
